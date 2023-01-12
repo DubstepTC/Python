@@ -1,0 +1,9 @@
+a = int(input("Введите число 1 : "))
+b = int(input("Введите число 2 : "))
+c = int(input("Введите число 3 : "))
+d = int(input("Введите число 4 : "))
+sum1 = a+b
+sum2 = c+d
+res = float(sum1/sum2)
+res2 = res % 10
+print("Результат операции = " + str(round(res2, 2)))
